@@ -1,0 +1,47 @@
+Bayesian Regression :
+1.ARDRegression
+2.BayesianRidge
+
+------------------------------------------------------------------------
+Linear Classifier Models:
+1.LogisticRegression
+2.LogisticRegressionCV
+3.PassiveAggresiveClassifier
+4.Perceptron
+5.RidgeClassifier, RidgeClassifierCV
+6.SGDClassifier
+
+------------------------------------------------------------------------	
+Classical Linear Regressors:
+1.LinearRegression
+2.SGDRegressor
+3.Ridge, RidgeCV
+
+Regressors with Variable selection:
+1.ElasticNet, ElasticNetCV
+2.Lars, LarsCV
+3.Lasso, LassoCV
+4.LassoLars, LassoLarsCV, LassoLarsCV
+5.OrthogonalMatchingPursuit, OrthogonalMatchingPursuitCV
+
+Multi-task Linear regressors with Variable selection:
+1.MultiTaskElasticNet
+2.MultiTaskElasticNetCV
+3.MultiTaskLasso
+4.MultiTaskLassoCV
+
+Outlier Robust Regressors:
+1.HuberRegressor
+2.QuantileRegressor
+3.RANSACRegressor
+4.TheilSenRegressor
+
+Generalized linear models :
+1.GammaRegressor
+2.PoissonRegressor
+3.TweedieRegressor
+---------------------------------------------------------------------------
+
+
+
+
