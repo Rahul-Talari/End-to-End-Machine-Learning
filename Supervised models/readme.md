@@ -1,4 +1,4 @@
-# Machine Learning Models
+# Supervised ML Models
 
 This repository contains a collection of machine learning models, algorithms, and techniques implemented in Python. The models cover a wide range of topics, including regression, classification, and ensemble methods, among others. This is a comprehensive guide to the most widely-used machine learning algorithms, including both traditional and modern methods.
 
