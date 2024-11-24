@@ -42,6 +42,45 @@ Generalized linear models :
 3.TweedieRegressor
 ---------------------------------------------------------------------------
 
+Gaussian_process: Gaussian process based regression and classification.
+ 
+1. GaussianProcessClassifier : Gaussian process classification (GPC) based on Laplace approximation.
+2. GaussianProcessRegressor  :  Gaussian process regression (GPR).
 
 
+Kernels:
+1. kernels.CompoundKernel      :  Kernel composed of a set of other kernels, allowing complex kernel combinations.
+2. kernels.ConstantKernel      :  Constant kernel, useful for modeling constant functions or bias terms.
+3. kernels.DotProduct          :  Dot-Product kernel, often used in linear models for vector similarity.
+4. kernels.ExpSineSquared      :  Exp-Sine-Squared kernel (aka periodic kernel), ideal for modeling periodic or cyclic data.
+5. kernels.Exponentiation      :  The Exponentiation kernel takes a base kernel and a scalar parameter, combining them for non-linearities.
+6. kernels.Hyperparameter      :  Specifies a kernel hyperparameter, defined as a named tuple for ease of use in tuning.
+7. kernels.Kernel              :  Base class for all kernels, the foundation for defining custom kernels in machine learning.
+8. kernels.Matern              :  Matern kernel, a popular choice for capturing smooth but non-smooth patterns, often used in Gaussian Processes.
+9. kernels.PairwiseKernel      :  A wrapper for kernels used in sklearn.metrics.pairwise, enabling similarity calculations between pairs of points.
+10.kernels.Product             :  The Product kernel combines two kernels by taking their product, modeling interactions between different features.
+11.kernels.RBF                 :  Radial basis function kernel (aka squared-exponential kernel), commonly used for smooth, non-linear regression problems.
+12.kernels.RationalQuadratic   :  Rational Quadratic kernel, often used for modeling scale-dependent correlations, capturing both short- and long-range dependencies.
+13.kernels.Sum                 :  The Sum kernel adds two kernels, combining different types of behaviors or features.
+14.kernels.WhiteKernel         :   White kernel, modeling white noise with no correlation between points, often used in Gaussian Processes to represent noise.
+---------------------------------------------------------------------------
 
+k-NN(K-Nearest Neighbours)
+
+1. BallTree                        :  BallTree for fast generalized N-point problems, often used for efficient nearest neighbor searches in high-dimensional data.
+2. KDTree                          :  KDTree for fast generalized N-point problems, suitable for multi-dimensional data and efficient nearest neighbor searches in spatial data.
+    3. KNeighborsClassifier            :  Classifier implementing the k-nearest neighbors vote, which classifies a data point based on the majority class of its nearest neighbors.
+4. KNeighborsRegressor             :  Regression based on k-nearest neighbors, predicting continuous values based on the average of the nearest neighbors’ values.
+5. KNeighborsTransformer           :  Transform X into a (weighted) graph of k-nearest neighbors, used to represent data in a graph form for further analysis or clustering.
+6. KernelDensity                   :  Kernel Density Estimation, a non-parametric way to estimate the probability density function of a random variable, useful for anomaly detection.
+7. LocalOutlierFactor              :  Unsupervised Outlier Detection using the Local Outlier Factor (LOF), identifying outliers by comparing the local density of points to their neighbors.
+    8. NearestCentroid                 :  Nearest centroid classifier, assigns labels based on the distance to the centroids of different classes, often used in multi-class classification problems.
+9. NearestNeighbors                :  Unsupervised learner for implementing neighbor searches, which finds and retrieves the nearest neighbors for each data point.
+10. NeighborhoodComponentsAnalysis :  Neighborhood Components Analysis, a dimensionality reduction method that maximizes the classification accuracy by optimizing the neighbor distance.
+    11. RadiusNeighborsClassifier      :  Classifier implementing a vote among neighbors within a given radius, ideal for situations where neighbors are not uniformly distributed but lie within a specific range.
+12. RadiusNeighborsRegressor       :  Regression based on neighbors within a fixed radius, predicting continuous values by considering only the nearest neighbors within a specified distance.
+13. RadiusNeighborsTransformer     :  Transform X into a (weighted) graph of neighbors nearer than a radius, creating graph representations of data points based on proximity.
+14. kneighbors_graph               :  Compute the (weighted) graph of k-Neighbors for points in X, typically used to visualize and analyze the relationships between data points.
+15. radius_neighbors_graph         :  Compute the (weighted) graph of Neighbors for points in X, creating a graph of points based on their proximity to others within a specified radius.
+16. sort_graph_by_row_values       :  Sort a sparse graph such that each row is stored with increasing values, optimizing the graph structure for storage and faster computations.
+-----------------------------------------------------------------------------
