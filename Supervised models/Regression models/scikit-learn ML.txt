@@ -40,7 +40,7 @@ Generalized linear models :
 1.GammaRegressor
 2.PoissonRegressor
 3.TweedieRegressor
----------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 
 Gaussian_process: Gaussian process based regression and classification.
  
@@ -63,7 +63,7 @@ Kernels:
 12.kernels.RationalQuadratic   :  Rational Quadratic kernel, often used for modeling scale-dependent correlations, capturing both short- and long-range dependencies.
 13.kernels.Sum                 :  The Sum kernel adds two kernels, combining different types of behaviors or features.
 14.kernels.WhiteKernel         :   White kernel, modeling white noise with no correlation between points, often used in Gaussian Processes to represent noise.
----------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 
 k-NN(K-Nearest Neighbours)
 
@@ -83,4 +83,4 @@ k-NN(K-Nearest Neighbours)
 14. kneighbors_graph               :  Compute the (weighted) graph of k-Neighbors for points in X, typically used to visualize and analyze the relationships between data points.
 15. radius_neighbors_graph         :  Compute the (weighted) graph of Neighbors for points in X, creating a graph of points based on their proximity to others within a specified radius.
 16. sort_graph_by_row_values       :  Sort a sparse graph such that each row is stored with increasing values, optimizing the graph structure for storage and faster computations.
------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
