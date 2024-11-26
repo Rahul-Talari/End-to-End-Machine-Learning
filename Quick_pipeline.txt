@@ -1,0 +1,38 @@
+missing values
+duplicate values 
+Outlier handling
+
+Feature engineering : encoding
+Feature scaling:
+Dimensionality reduction:
+	Feature selection
+	Feature Projection
+
+1. Problem statement
+2. Data Collection
+	Display head rows						 : df.head(), df.tail(), df.sample(size)
+	shape of dataset						 : df.shape
+	Dataset information
+3. Data Checks to perform
+	Check data type							 : df.info()
+	Check Missing values						 : df.isnull().sum()
+	Check Duplicates						 : df.duplicated().sum()	
+	Check statistics of data set					 : df.describe()
+        Check number of numerical & features                    	 : numeric_features = [feature for feature in df.columns if df[feature].dtype != 'O']
+								  	   categorical_features = [feature for feature in df.columns if df[feature].dtype == 'O']
+									   print('We have {} numerical features : {}'.format(len(numeric_features), numeric_features))
+									   print('\nWe have {} categorical features : {}'.format(len(categorical_features), categorical_features))
+	Check no.of unique values of each columns			 : df.nunique()
+	Check various categories present in different categorical columns: print("Categories in 'attribute_name' variable:  ",end=" ")
+									   print(df['attribute_name'].unique())
+	
+
+missing values
+duplicate values 
+Outlier handling
+
+Feature engineering : encoding
+Feature scaling:
+Dimensionality reduction:
+	Feature selection
+	Feature Projection
