@@ -1,0 +1,16 @@
+Confusion matrix: A confusion matrix is a table used to evaluate the performance metrics of classification models by comparing the predicted values to the actual values.
+                  It maintains the counts of true positives, true negatives, false positives, and false negatives.
+                                    
+                                    Predicted Positive   Predicted Negative
+                    Actual Positive         TP                  FN
+                    Actual Negative         FP                  TN
+
+- True Positive (TP): Correctly predicted positive cases.
+- True Negative (TN): Correctly predicted negative cases.
+- False Positive (FP): Predicted positive but actually negative (Type I Error).
+- False Negative (FN): Predicted negative but actually positive (Type II Error).
+
+
+
+
+Metrics:
