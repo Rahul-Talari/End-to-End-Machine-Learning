@@ -1,9 +1,0 @@
-Step1: conda create -p  virtual_env python==3.10 -y  
-Step2: conda activate virtual_env/
-Step3: conda deactivate 
-
-(or)
-
-Step1: python -m venv virtaul_env
-Step2: virtaul_env\Scripts\activate
-step3: deactivate
